@@ -8,15 +8,17 @@ const HomePage = () => {
     <div className="page-container">
       <div className="home-page">
         <div className="home-row row-a">
-          <div className="home-main">
-            <div className="home-header">
-              <h1 className="home-title">Nathan Potter Web Development</h1>
-              <h2 className="home-subtitle">Design. Develop. Deploy.</h2>
+          <div className="row-filter">
+            <div className="home-main">
+              <div className="home-header">
+                <h1 className="home-title">Nathan Potter Web Development</h1>
+                <h2 className="home-subtitle">Design. Develop. Deploy.</h2>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="home-row">
+        <div className="home-row row-d">
           <p>Helping small businesses build a big web presence.</p>
         </div>
         <div className="home-row row-b">

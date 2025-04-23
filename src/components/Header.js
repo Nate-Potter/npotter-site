@@ -24,13 +24,6 @@ const Header = () => {
         )}
       </div>
 
-      {/* Site Title */}
-      <div className="header-container">
-        <div className="header-logo">
-          <img className="logo" src={logo} alt="NPotter Logo" />
-        </div>
-      </div>
-
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <nav className="mobile-menu">
@@ -58,36 +51,41 @@ const Header = () => {
       )}
 
       {/* Desktop Navigation */}
-      <nav className="header-navigation">
-        <ul className="navbar-options">
-          <li>
-            <Link to="/" className="link">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="link">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="link">
-              Contact
-            </Link>
-          </li>
-        </ul>
-        <ul className="social-buttons">
-          <li>
-            <a href={social.github} target="_blank" rel="noopener noreferrer">
-              <Icon icon="fa-brands fa-github" className="social-icons github" />
-            </a>
-          </li>
-          <li>
-            <a onClick={CopyEmail} target="_blank" rel="noopener noreferrer">
-              <Icon icon="fa-regular fa-envelope" className="social-icons envelope" />
-            </a>
-          </li>
-        </ul>
+      <nav className="header-bar">
+        <div className="site-logo">
+          <p>{">NPotter"}</p>
+        </div>
+        <div className="navigation">
+          <ul className="navbar-links">
+            <li>
+              <Link to="/" className="link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="link">
+                Contact
+              </Link>
+            </li>
+          </ul>
+          <ul className="social-buttons">
+            <li>
+              <a href={social.github} target="_blank" rel="noopener noreferrer">
+                <Icon icon="fa-brands fa-github" className="social-icons github" />
+              </a>
+            </li>
+            <li>
+              <a onClick={CopyEmail} target="_blank" rel="noopener noreferrer">
+                <Icon icon="fa-regular fa-envelope" className="social-icons envelope" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   );

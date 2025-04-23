@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
         <label className="copyright">
-          © 2025 Nathan Potter Web Development, npotter.com. All rights reserved.
+          © 2025 Nathan Potter Web Development · npotter.com · All rights reserved.
         </label>
       </div>
     </div>

@@ -21,8 +21,13 @@ body{
 }
 
 @font-face {
-  font-family: 'Vintage';
-  src: url('utils/fonts/Goldsmith-Vintage.otf');
+  font-family: 'Space';
+  src: url('utils/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Gruppo';
+  src: url('utils/fonts/Gruppo-Regular.ttf');
 }
 
 @font-face {
@@ -81,19 +86,6 @@ h1, h2 {
   color: rgba(98, 0, 189, 0.8);
   /* color: rgb(178, 172, 136); */
 }
-
-.spinner-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f3f3f3;
-}
-.loading-message{
-  margin-top: 20px;
-}
-
 
 /*-----------------------------------GENERAL PAGE SETTING--------------------------------------------------*/
 .page-container{  
@@ -188,61 +180,34 @@ ul{
   display: none;
 }
 
-.header-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 18em;
-  max-height: 100%;
-  margin: 0 auto;
-  padding-block: 10px;
-  line-height: 2;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .4) 5%, rgba(255, 255, 255, .4) 95%, rgba(255, 255, 255, 0) 100%);
 
-}
-
-.header-logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10px;
-  /* width: 100%; */
-}
-
-.logo{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  /* max-width: 400px; */
-  max-height: 180px;
-  border-radius: 50%
-}
-.logo img{
-  max-width: 33%;
-}
-
-.header-subtitle{
-  justify-content: center;
-  font-family: "Vintage";
-  font-size: 2rem;
-  font-weight: 100;
-  line-height: 1;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
-}
-
-.header-navigation{
+.header-bar{
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 100%;
   max-width: 100%;
   background-color: rgba(255, 255, 255, .2);
   backdrop-filter: blur(25px);
+  background-image: linear-gradient(to left, rgba(200, 200, 200, .8) 0%, rgba(255, 255, 255, .4) 10%, rgba(200, 200, 200, 1) 50%,rgba(255, 255, 255, .4) 90%, rgba(200, 200, 200, .8) 100%);
+
 }
 
-.navbar-options{
+.site-logo p{
+  font-family: "Gruppo";
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 1.5;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-links{
   display: flex;
   flex-direction: row;
   margin: 04px 10px;
@@ -250,14 +215,15 @@ ul{
   padding-bottom: 4px;
 }
 
-.navbar-options .link{
+.navbar-links .link{
   text-decoration: none;
-  font-family: "Brandink";
-  font-size: 1.1em;
-  font-weight: 100;
+  font-family: "Gruppo";
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-weight: 200;
   padding-inline: 20px;
 }
-.navbar-options .link:hover{
+.navbar-links .link:hover{
   color: rgb(255, 255, 255);
   text-shadow: 0px 2px 8px rgb(0, 0, 0);
   transition: color 0.2s ease-in-out, text-shadow 0.1s ease-in-out;
@@ -523,7 +489,7 @@ ul{
 }
 
 .home-row{
-  background-color: white;
+  background-color: black;
   z-index: 0;
   display: flex;
   flex-direction: row;
@@ -533,7 +499,6 @@ ul{
   width: 100%;
   margin: 0 auto;
 }
-
   .row-a{
     background-image: url("../src/content/images/circuit-board1.jpg");
     background-size: cover;
@@ -557,6 +522,28 @@ ul{
     background-attachment: scroll;
     z-index: 1;
   }
+  .row-d{
+    background-image: linear-gradient(
+  to bottom,
+  rgba(255, 255, 255, 0) 0%,
+  rgba(255, 255, 255, 1) 20%,
+  rgba(255, 255, 255, 1) 50%,
+  rgba(255, 255, 255, 1) 80%,
+  rgba(255, 255, 255, 0) 100%
+);
+
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, .8) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, .8) 75%, rgba(255, 255, 255, 0) 100%); */
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  z-index: 1;
+  }
+.row-filter{
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, .0) 0%, rgba(0, 0, 0, .2) 50%,rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, 1) 100%);
+  width: 100%;
+  height: 100%;
+}
 
 .home-main{
   display: flex;
@@ -579,7 +566,7 @@ ul{
 }
 
 .home-title{
-  font-family: "Vintage";
+  font-family: "Gruppo";
   font-size: 5.5em;
   font-weight: 100;
   line-height: 1;
@@ -589,7 +576,7 @@ ul{
 }
 
 .home-subtitle{
-  font-family: "Brandink";
+  font-family: "Space";
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.5;
