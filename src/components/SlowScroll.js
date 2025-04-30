@@ -51,7 +51,6 @@ const SlowScroll = () => {
         { selector: ".row-a", speed: 0.5 },
         { selector: ".row-b", speed: 0.5 },
         { selector: ".row-c", speed: 0.5 },
-        { selector: ".row-d", speed: 1.2 },
       ];
 
       rows.forEach(({ selector, speed }) => {

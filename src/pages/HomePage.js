@@ -18,11 +18,16 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="home-row row-d">
-          <p>Helping small businesses build a big web presence.</p>
+        <div className="home-row">
+          <h2>Custom Websites for Small Businesses & Creatives</h2>
+          <p>Build your online presence with clean, modern websites tailored to your vision.</p>
         </div>
         <div className="home-row row-b">
-          <p>Custom websites with clean code and purpose-driven design.</p>
+          <p>
+            What I Offer: Custom website development using React Mobile-friendly and responsive
+            design Mailing list integration (MailChimp, etc.) Photo and video galleries Event
+            calendars Clean, SEO-ready code Personalized support and collaboration
+          </p>
         </div>
         <div className="home-row">
           <p>Turning ideas into interactive experiences.</p>
@@ -32,8 +37,8 @@ const HomePage = () => {
             I'm Nathan Potter — a freelance web developer passionate about building fast,
             responsive, and purpose-driven websites. Whether you're a small business owner, a
             creative professional, or a startup ready to launch, I create digital experiences that
-            not only look great but work beautifully under the hood. Let’s bring your vision online
-            — with clean code, thoughtful design, and zero fuss.
+            are custom built to your needs. Let’s bring your vision online — with a site that is
+            fast, functional, and designed to grow with your business.
           </p>
         </div>
       </div>

@@ -37,13 +37,23 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about" className="link" onClick={toggleMobileMenu}>
-                About
+              <Link to="/services" className="link" onClick={toggleMobileMenu}>
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/portfolio" className="link" onClick={toggleMobileMenu}>
+                Portfolio
               </Link>
             </li>
             <li>
               <Link to="/contact" className="link" onClick={toggleMobileMenu}>
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link" onClick={toggleMobileMenu}>
+                About
               </Link>
             </li>
           </ul>
@@ -53,7 +63,11 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="header-bar">
         <div className="site-logo">
-          <p>{">NPotter"}</p>
+          <p>
+            {"{"}
+            <span> NPotter </span>
+            {"}"}
+          </p>
         </div>
         <div className="navigation">
           <ul className="navbar-links">
@@ -63,13 +77,23 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about" className="link">
-                About
+              <Link to="/services" className="link">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/portfolio" className="link">
+                Portfolio
               </Link>
             </li>
             <li>
               <Link to="/contact" className="link">
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link">
+                About
               </Link>
             </li>
           </ul>

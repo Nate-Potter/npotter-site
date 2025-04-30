@@ -11,32 +11,17 @@ const ContactPage = () => {
       <div className="contact-page">
         <div className="contact-row">
           <div className="contact-main">
-            <h1>We'd Love to See You Soon!</h1>
-            <p className="address">996 Lawrence Drive #103</p>
-            <p>Newbury Park, CA 91320</p>
-            <p>Monday - Friday : 6:30am - 2:00pm</p>
-            <p>Saturday & Sunday : 7:00am - 2:00pm</p>
-            <p>SideStreetCafe805@gmail.com</p>
-            <p>(805) 499-9323</p>
+            <h1>Start Growing Your Business Today!</h1>
+            <p>Insert MailChimp contact form here.</p>
             <ul className="social-buttons">
-              <li>
-                <a href={social.yelp} target="_blank" rel="noopener noreferrer">
-                  <Icon icon="fa-brands fa-yelp" className="social-icons yelp" />
-                </a>
-              </li>
               <li>
                 <a href={social.google} target="_blank" rel="noopener noreferrer">
                   <Icon icon="fa-brands fa-google" className="social-icons google" />
                 </a>
               </li>
               <li>
-                <a href={social.facebook} target="_blank" rel="noopener noreferrer">
-                  <Icon icon="fa-brands fa-facebook-f" className="social-icons facebook" />
-                </a>
-              </li>
-              <li>
-                <a href={social.instagram} target="_blank" rel="noopener noreferrer">
-                  <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
+                <a href={social.github} target="_blank" rel="noopener noreferrer">
+                  <Icon icon="fa-brands fa-github" className="social-icons github" />
                 </a>
               </li>
             </ul>
