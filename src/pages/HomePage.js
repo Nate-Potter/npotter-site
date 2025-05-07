@@ -24,9 +24,18 @@ const HomePage = () => {
         </div>
         <div className="home-row row-b">
           <p>
-            What I Offer: Custom website development using React Mobile-friendly and responsive
-            design Mailing list integration (MailChimp, etc.) Photo and video galleries Event
-            calendars Clean, SEO-ready code Personalized support and collaboration
+            Websites that are fast, functional, and built to grow with you.
+            <br />
+            - Custom website development with React
+            <br />
+            - Responsive, mobile-friendly design
+            <br />
+            - Third-party integrations (mailing lists, eCommerce tools, scheduling calendars, etc.)
+            <br />
+            - Photo & video galleries, custom event calendars
+            <br />
+            - Clean, SEO-ready code
+            <br />- Personalized support and collaboration
           </p>
         </div>
         <div className="home-row">
