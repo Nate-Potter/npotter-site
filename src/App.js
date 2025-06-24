@@ -3,8 +3,9 @@ import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import ServicesPage from "./pages/ServicesPage";
 import PortfolioPage from "./pages/PortfolioPage";
-import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import AboutPage from "./pages/AboutPage";
+import HabitAppPage from "./pages/HabitAppPage";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/app" element={<HabitAppPage />} />
           </Routes>
           <Footer />
         </div>
