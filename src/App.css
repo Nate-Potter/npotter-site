@@ -194,13 +194,14 @@ ul {
   );
 }
 
-.site-logo p {
+.site-logo a {
   font-family: "Space";
   font-size: 2.2em;
   font-weight: 200;
   line-height: 1.5;
   align-items: center;
   padding: 5px 20px;
+  text-decoration: none;
 }
 .site-logo span {
   font-family: "Gruppo";
@@ -659,12 +660,64 @@ ul {
 /*-----------------------------------SERVICES PAGE-------------------------------------------------*/
 
 
-.services-page{
+.services-page {
+  background-image: url("../src/content/images/desktop2.jpg");
+    background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* js will handle slow scroll */
+  z-index: 1;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
+.services-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 3.5;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  width: 50%;
+  height: 600px;
+}
+
+.services-title{
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+.services-main h1 {
+  font-family: "Brandink";
+  color: rgb(0, 97, 153);
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  line-height: 2;
+}
+.services-main p {
+  width: 75%;
+  font-family: "BrandinkLight";
+  font-size: 1.1em;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.services-main span {
+  width: 75%;
+  font-family: "Brandink";
+  font-size: .8em;
+  text-align: start;
+}
 /*-----------------------------------SWIPER-------------------------------------------------*/
 
 .swiper-container {
@@ -699,21 +752,17 @@ ul {
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
 
 .contact-page {
+  background-image: url("../src/content/images/desktop1.jpg");
+    background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* js will handle slow scroll */
+  z-index: 1;
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
-}
-
-.contact-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  width: 100%;
-  margin: 40px auto;
 }
 
 .contact-main {
@@ -722,35 +771,35 @@ ul {
   justify-content: center;
   text-align: center;
   line-height: 3.5;
-  background-color: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(2px);
-  /* background-position: 50% 100%; */
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
   width: 50%;
   height: 600px;
+}
+
+.contact-title{
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  
 }
 .contact-main h1 {
   font-family: "Brandink";
+  color: rgb(0, 97, 153);
   font-size: 3em;
   font-weight: bold;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  line-height: 2;
 }
-.contact-main p {
+.contact-main h3 {
+  width: 75%;
   font-family: "BrandinkLight";
+  line-height: 1.5;
   font-size: 1.1em;
-}
-.contact-main .address {
-  line-height: 0.5;
-}
-
-.contact-map {
-  justify-content: center;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.contact-map iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
 }
 
 .contact-page .social-buttons {
@@ -758,6 +807,64 @@ ul {
   justify-content: center;
   margin: 0 auto;
 }
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.contact-form input, textarea{
+background: transparent;
+border: none;
+border-bottom: 1px solid rgb(0, 97, 153);
+outline: none; /*Remove input focus outline*/
+margin-top: 4px;
+padding: 8px;
+margin-inline: 2px;
+resize: none;
+font-family: "BrandinkLight";
+width: 50%;
+}
+
+.input-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.message-box{
+  width: 100%;
+  resize: vertical;
+}
+
+.contact-submit{
+  font-family: "Brandink";
+  line-height: 1;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 97, 153);
+  background-color: transparent;
+  width: fit-content;
+  padding:8px 18px;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+}
+  .contact-submit:hover{
+    color: rgb(0, 69, 133);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .8);
+  }
+
+
+
 @media (max-width: 800px) {
   .contact-row {
     display: flex;
@@ -803,4 +910,13 @@ ul {
   display: flex;
   flex-direction: column;
   margin: auto;
+}
+.calendar-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
 }

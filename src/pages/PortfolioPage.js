@@ -1,5 +1,7 @@
 import React from "react";
 
-const PortfolioPage = () => {};
+const PortfolioPage = () => {
+  return <div className="page-container"></div>;
+};
 
 export default PortfolioPage;

@@ -63,11 +63,11 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="header-bar">
         <div className="site-logo">
-          <p>
+          <a href="/">
             {"{"}
             <span> NPotter </span>
             {"}"}
-          </p>
+          </a>
         </div>
         <div className="navigation">
           <ul className="navbar-links">

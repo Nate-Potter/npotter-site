@@ -1,4 +1,4 @@
-const emailAddress = "npotter805@gmail.com";
+const emailAddress = "ndpotter805@gmail.com";
 
 const CopyEmail = () => {
   navigator.clipboard.writeText(emailAddress);
