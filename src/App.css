@@ -661,7 +661,7 @@ ul {
 
 
 .services-page {
-  background-image: url("../src/content/images/desktop2.jpg");
+  background-image: url("../src/content/images/desktop6.jpg");
     background-size: cover;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -704,7 +704,7 @@ ul {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   line-height: 2;
 }
-.services-main p {
+.services-main h4 {
   width: 75%;
   font-family: "BrandinkLight";
   font-size: 1.1em;
@@ -712,7 +712,7 @@ ul {
   line-height: 1.5;
 }
 
-.services-main span {
+.services-main p {
   width: 75%;
   font-family: "Brandink";
   font-size: .8em;
@@ -771,7 +771,7 @@ ul {
   justify-content: center;
   text-align: center;
   line-height: 3.5;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(29, 29, 29, 0.8);
   backdrop-filter: blur(6px);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
