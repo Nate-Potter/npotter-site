@@ -27,8 +27,8 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="page-container">
-      <div className="contact-page">
+    <div className="contact-page">
+      <div className="blur">
         <div className="glass-container">
           <div className="contact-title">
             <h1>Let’s Bring Your Vision to Life!</h1>
@@ -48,7 +48,7 @@ const ContactPage = () => {
                 <input type="tel" name="PHONE" placeholder="Phone" />
               </div>
               <textarea name="MMERGE5" placeholder="How can I help you?" className="message-box" />
-              <button onClick={thankYou} className="contact-submit" type="submit">
+              <button onClick={thankYou} className="button1" type="submit">
                 Submit
               </button>
               {message}

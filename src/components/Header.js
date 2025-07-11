@@ -30,7 +30,7 @@ const Header = () => {
           <div className="mobile-menu-close-button" onClick={toggleMobileMenu}>
             <p>&#9932;</p> {/* "x" icon to close the mobile menu */}
           </div>
-          <ul className="navbar-options">
+          <ul className="navbar-links">
             <li>
               <Link to="/" className="link" onClick={toggleMobileMenu}>
                 Home

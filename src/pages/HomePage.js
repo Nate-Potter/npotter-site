@@ -12,10 +12,14 @@ const HomePage = () => {
       <div className="home-page">
         <div className="home-row row-a">
           <div className="row-filter">
-            <div className="home-main">
-              <div className="home-header">
-                <h1 className="home-title">Nathan Potter Web Development</h1>
-                <h2 className="home-subtitle">Design. Develop. Deploy.</h2>
+            <div className="blur">
+              <div className="home-title">
+                <h1>
+                  Nathan Potter
+                  <br />
+                  Web Development
+                </h1>
+                <h2>Design. Develop. Deploy.</h2>
               </div>
             </div>
           </div>
@@ -36,20 +40,22 @@ const HomePage = () => {
           </div>
         </div>
         <div className="home-row row-b">
-          <div className="home-info">
-            <h2>What I Offer</h2>
-            <p>
-              From first sketch to final deployment, I help you bring your ideas online with modern
-              tools and thoughtful design:
-            </p>
-            <ul>
-              <li>⚛️ Custom React Websites</li>
-              <li>📱 Responsive Design for All Devices</li>
-              <li>🔌 Third-Party Integrations (Mailchimp, Calendly, etc.)</li>
-              <li>🎥 Media-Rich Features (videos, carousels, galleries)</li>
-              <li>🔍 SEO-Friendly Code & Structure</li>
-              <li>🤝 One-on-One Client Collaboration</li>
-            </ul>
+          <div className="blur">
+            <div className="home-info">
+              <h2>What I Offer</h2>
+              <p>
+                From first sketch to final deployment, I help you bring your ideas online with
+                modern tools and thoughtful design:
+              </p>
+              <ul>
+                <li>⚛️ Custom React Websites</li>
+                <li>📱 Responsive Design for All Devices</li>
+                <li>🔌 Third-Party Integrations (Mailchimp, Calendly, etc.)</li>
+                <li>🎥 Media-Rich Features (videos, carousels, galleries)</li>
+                <li>🔍 SEO-Friendly Code & Structure</li>
+                <li>🤝 One-on-One Client Collaboration</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="home-row">
@@ -71,15 +77,17 @@ const HomePage = () => {
           </div>
         </div>
         <div className="home-row row-c">
-          <div className="home-info">
-            <h2>Meet the Developer</h2>
-            <p>
-              I'm Nathan Potter — a freelance web developer with a background in craftsmanship and
-              client-first service. Before code, I spent 8 years building custom surfboards — so I
-              understand how to blend precision with creativity. Now I bring that same mindset to
-              the web, helping small businesses and creatives launch beautiful, functional sites
-              that grow with them.
-            </p>
+          <div className="blur">
+            <div className="home-info">
+              <h2>Meet the Developer</h2>
+              <p>
+                I'm Nathan Potter — a freelance web developer with a background in craftsmanship and
+                client-first service. Before code, I spent 8 years building custom surfboards — so I
+                understand how to blend precision with creativity. Now I bring that same mindset to
+                the web, helping small businesses and creatives launch beautiful, functional sites
+                that grow with them.
+              </p>
+            </div>
           </div>
         </div>
         <div className="home-row">
