@@ -133,6 +133,7 @@ h2 {
   font-family: "Brandink";
   font-weight: 600;
   line-height: 1;
+  color: rgba(122, 122, 122, 1);
   border-radius: 5px;
   border: 2px solid rgb(0, 97, 153);
   background-color: transparent;
@@ -635,7 +636,6 @@ ul {
   border-radius: 5px;
   backdrop-filter: blur(8px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-  color: white;
   line-height: 1.8;
   font-size: 1.2em;
 }
@@ -664,17 +664,20 @@ ul {
   margin: 20px 0;
 }
 
-.home-info ul li {
+.home-info li {
   padding: 6px 0;
   font-family: "BrandinkLight";
   font-size: 1.1em;
+  color: white;
 }
 
 .home-info p {
   padding: 6px 0;
   font-family: "BrandinkLight";
   font-size: 1em;
+  color: white;
 }
+
 
 .row-image img{
   border-radius: 10px;
@@ -863,17 +866,18 @@ ul {
 }
 
 .contact-form input, textarea{
-background: transparent;
-background-color: rgba(0, 0, 0, .1);
-border: none;
-border-bottom: 1px solid rgb(0, 97, 153);
-outline: none; /*Remove input focus outline*/
-padding: 8px;
-margin-inline: 2px;
-margin-bottom: 12px;
-resize: none;
-font-family: "BrandinkLight";
-width: 50%;
+  background: transparent;
+  background-color: rgba(0, 0, 0, .1);
+  border: none;
+  border-bottom: 1px solid rgb(0, 97, 153);
+  outline: none; /*Remove input focus outline*/
+  padding: 8px;
+  margin-inline: 2px;
+  margin-bottom: 12px;
+  resize: none;
+  font-family: "BrandinkLight";
+  color: rgba( 255, 255, 255, .6);
+  width: 50%;
 }
 
 .input-row{

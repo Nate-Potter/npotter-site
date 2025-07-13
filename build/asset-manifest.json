@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/npotter-site/static/css/main.0f595673.css",
+    "main.js": "/npotter-site/static/js/main.4c2ee86a.js",
+    "static/media/desktop6.jpg": "/npotter-site/static/media/desktop6.7d732bdab24835194336.jpg",
+    "static/media/desktop1.jpg": "/npotter-site/static/media/desktop1.9176551daf77401613d1.jpg",
+    "static/media/desktop4.jpg": "/npotter-site/static/media/desktop4.b87d7d2a94265ab74527.jpg",
+    "static/media/circuit-board2.jpg": "/npotter-site/static/media/circuit-board2.df7efc2d20b13d4ed93d.jpg",
+    "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/npotter-site/static/media/SpaceGrotesk-VariableFont_wght.f0f1fce4a59e46198487.ttf",
+    "static/media/desktop7.jpg": "/npotter-site/static/media/desktop7.ba752b99961f7c2eefc1.jpg",
+    "static/media/BrandinkSans-Light.otf": "/npotter-site/static/media/BrandinkSans-Light.df21b83c1ecf2068ccd7.otf",
+    "static/media/circuit-board1.jpg": "/npotter-site/static/media/circuit-board1.f3af31e508f5acb338f4.jpg",
+    "static/media/BrandinkSans.otf": "/npotter-site/static/media/BrandinkSans.5bed742da5f32e7f1466.otf",
+    "static/media/npotter-logo.jpg": "/npotter-site/static/media/npotter-logo.b3f3bd4196d0dfefe2bb.jpg",
+    "static/media/Gruppo-Regular.ttf": "/npotter-site/static/media/Gruppo-Regular.6651b7e098ca04e57596.ttf",
+    "static/media/office1.jpg": "/npotter-site/static/media/office1.0f535ae918f7c39e42bd.jpg",
+    "static/media/react-logo.jpg": "/npotter-site/static/media/react-logo.5b8699c7b75de9d3e083.jpg",
+    "index.html": "/npotter-site/index.html",
+    "main.0f595673.css.map": "/npotter-site/static/css/main.0f595673.css.map",
+    "main.4c2ee86a.js.map": "/npotter-site/static/js/main.4c2ee86a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f595673.css",
+    "static/js/main.4c2ee86a.js"
+  ]
+}
