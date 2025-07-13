@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/npotter-site/static/css/main.0f595673.css",
-    "main.js": "/npotter-site/static/js/main.4c2ee86a.js",
+    "main.css": "/npotter-site/static/css/main.88b4617a.css",
+    "main.js": "/npotter-site/static/js/main.1f4cae70.js",
     "static/media/desktop6.jpg": "/npotter-site/static/media/desktop6.7d732bdab24835194336.jpg",
     "static/media/desktop1.jpg": "/npotter-site/static/media/desktop1.9176551daf77401613d1.jpg",
     "static/media/desktop4.jpg": "/npotter-site/static/media/desktop4.b87d7d2a94265ab74527.jpg",
@@ -16,11 +16,11 @@
     "static/media/office1.jpg": "/npotter-site/static/media/office1.0f535ae918f7c39e42bd.jpg",
     "static/media/react-logo.jpg": "/npotter-site/static/media/react-logo.5b8699c7b75de9d3e083.jpg",
     "index.html": "/npotter-site/index.html",
-    "main.0f595673.css.map": "/npotter-site/static/css/main.0f595673.css.map",
-    "main.4c2ee86a.js.map": "/npotter-site/static/js/main.4c2ee86a.js.map"
+    "main.88b4617a.css.map": "/npotter-site/static/css/main.88b4617a.css.map",
+    "main.1f4cae70.js.map": "/npotter-site/static/js/main.1f4cae70.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f595673.css",
-    "static/js/main.4c2ee86a.js"
+    "static/css/main.88b4617a.css",
+    "static/js/main.1f4cae70.js"
   ]
 }

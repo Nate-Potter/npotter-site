@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
-    <div className="about-page">
+    <div className="page about-page">
       <div className="blur">
         <div className="glass-container">
           <h1>About Me</h1>

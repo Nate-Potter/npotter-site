@@ -39,16 +39,6 @@ body {
   src: url("utils/fonts/BrandinkSans.otf");
 }
 
-:root {
-  --main: rgba(255, 255, 255, 0.9);
-  /* --main: rgba(20, 20, 20, .9); */
-  --secondary: rgba(20, 20, 20, 0.98);
-  --sage: rgba(169, 31, 255, 0.4);
-  --shadow: 0 0 14px 8px rgba(0, 0, 0, 1);
-
-  --background1: rgba(0, 0, 25, 1);
-}
-
 .container {
   width: 100%;
   max-height: 100%;
@@ -89,19 +79,18 @@ h2 {
 }
 
 /*-----------------------------------GENERAL PAGE SETTING--------------------------------------------------*/
-.page-container {
-  background: linear-gradient(135deg, #445566 0%, #50697c 35%, #5f88a0 70%, #7fb1c0 100%);
+.page{
   background-size: cover;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll; /* js will handle slow scroll */
+  z-index: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  min-height: 900px;
-  z-index: 0;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .blur{
   display: flex;
@@ -541,11 +530,11 @@ ul {
 
 /*-----------------------------------HOME PAGE-------------------------------------------------*/
 
-.home-page {
+/* .home-page {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
+} */
 
 .home-row {
   background-color: black;
@@ -746,19 +735,8 @@ ul {
 
 /*-----------------------------------SERVICES PAGE-------------------------------------------------*/
 
-
 .services-page {
   background-image: url("../src/content/images/desktop4.jpg");
-  background-size: cover;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-attachment: scroll; /* js will handle slow scroll */
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .services-page h1 {
@@ -804,21 +782,28 @@ ul {
   margin-bottom: 10px;
 }
 
-
+@media (max-width: 800px) {
+  .services-page h1 {
+    font-size: 2.5em;
+    line-height: 1.5;
+    margin-block: 40px;
+    padding-block: 40px;
+  }
+  .services-page h3 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-block: 10px;
+  }
+  .services-main h4 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-block: 10px;
+  }
+}
 /*-----------------------------------CONTACT PAGE-------------------------------------------------*/
-
+ 
 .contact-page {
   background-image: url("../src/content/images/desktop1.jpg");
-  background-size: cover;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-attachment: scroll; /* js will handle slow scroll */
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .contact-title{
@@ -925,26 +910,15 @@ ul {
 
   .contact-page h1 {
     line-height: 1.5;
-    margin-bottom: 10px;
-    padding-block: 20px;
+    margin-block: 40px;
   }
 }
 
 
 /*-----------------------------------ABOUT PAGE-------------------------------------------------*/
-
+ 
 .about-page {
   background-image: url("../src/content/images/desktop6.jpg");
-  background-size: cover;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-attachment: scroll; /* js will handle slow scroll */
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-page h1 {
@@ -974,6 +948,25 @@ ul {
   margin-bottom: 10px;
 }
 
+@media (max-width: 800px) {
+  .about-page h1 {
+    font-size: 2.5em;
+    line-height: 1.5;
+    margin-block: 40px;
+    padding-block: 40px;
+  }
+  .about-page h4 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-block: 20px;
+  }
+  .about-page p{
+    font-size: 1em;
+    line-height: 1.5;
+    padding-block: 10px;
+    padding-inline: 10px;
+  }
+}
 /*-----------------------------------SWIPER-------------------------------------------------*/
 
 .swiper-container {
