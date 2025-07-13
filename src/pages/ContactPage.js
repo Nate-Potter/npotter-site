@@ -56,11 +56,6 @@ const ContactPage = () => {
           </div>
           <ul className="social-buttons">
             <li>
-              <a href={social.google} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-google" className="social-icons google" />
-              </a>
-            </li>
-            <li>
               <a href={social.github} target="_blank" rel="noopener noreferrer">
                 <Icon icon="fa-brands fa-github" className="social-icons github" />
               </a>
