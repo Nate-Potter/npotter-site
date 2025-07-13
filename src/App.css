@@ -311,6 +311,7 @@ ul {
     position: absolute;
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 0px 2px;
     padding: 4px;
     padding-top: 0px;
@@ -320,26 +321,26 @@ ul {
   }
   .mobile-menu-button p {
     font-family: "Brandink";
-    font-size: 60px;
+    font-size: 4em;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.1;
     align-items: center;
     justify-content: center;
+    align-items: center;
   }
 
   .mobile-menu-close-button {
     position: absolute;
     display: flex;
-    padding-inline: 10px;
-    margin-block: 5px;
+    padding-inline: 5px;
     text-align: end;
     right: 0;
   }
   .mobile-menu-close-button p {
     font-family: "Brandink";
-    font-size: 48px;
+    font-size: 4em;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.1;
   }
 
   .mobile-menu .navbar-links {
@@ -530,12 +531,6 @@ ul {
 
 /*-----------------------------------HOME PAGE-------------------------------------------------*/
 
-/* .home-page {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-} */
-
 .home-row {
   background-color: black;
   z-index: 0;
@@ -704,13 +699,15 @@ ul {
     font-size: 1.6em;
     color: white;
   }
-
   .home-info {
     width: 100%;
     height: fit-content;
     margin: 20px auto;
   }
-
+  .home-info h2 {
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
   .home-info.right{
     width: 100%;
     margin: 0 auto;
@@ -824,7 +821,8 @@ ul {
   font-family: "BrandinkLight";
   line-height: 1.5;
   font-size: 1.3em;
-  text-shadow: 0 0px 15px rgba(255, 255, 255, 1);
+  color: rgb(184, 184, 184);
+  text-shadow: 0 0px 15px rgba(255, 255, 255, .3);
 }
 
 .contact-page .social-buttons {

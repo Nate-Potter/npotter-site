@@ -28,7 +28,7 @@ const Header = () => {
       {isMobileMenuOpen && (
         <nav className="mobile-menu">
           <div className="mobile-menu-close-button" onClick={toggleMobileMenu}>
-            <p>&#9932;</p> {/* "x" icon to close the mobile menu */}
+            <p>x</p> {/* "x" icon to close the mobile menu &#9932;*/}
           </div>
           <ul className="navbar-links">
             <li>
