@@ -16,7 +16,7 @@ const ContactPage = () => {
     const formData = new FormData(form);
 
     try {
-      await fetch("https://formsubmit.co/ndpotter805@gmail.com", {
+      await fetch("https://formsubmit.co/8ed4f5805c554167404d5391f7248b0c", {
         method: "POST",
         body: formData,
         headers: {
