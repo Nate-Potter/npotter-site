@@ -5,6 +5,7 @@ import ServicesPage from "./pages/ServicesPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
+import ThankYouPage from "./pages/ThankYouPage";
 import HabitAppPage from "./pages/HabitAppPage";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/thank-you" element={<ThankYouPage />} />
             <Route path="/app" element={<HabitAppPage />} />
           </Routes>
           <Footer />

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import social from "../data/socialMedia";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
@@ -6,24 +7,29 @@ import CopyEmail from "../utils/CopyEmail";
 
 const ContactPage = () => {
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
-  const handleSubmit = async (event) => {
-    // Prevent page from refreshing on the submission
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
 
     try {
-      const response = await fetch("", {
+      await fetch("https://formsubmit.co/ndpotter805@gmail.com", {
         method: "POST",
-        body: new FormData(event.target),
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
       });
+
+      form.reset();
+      navigate("/thank-you");
     } catch (error) {
       console.error("Form submission error:", error);
-      // Handle error, display error message, or log the error
+      setMessage("Oops! Something went wrong. Please try again later.");
     }
-  };
-
-  const thankYou = () => {
-    setMessage("Thank you for your submission!");
   };
 
   return (
@@ -38,7 +44,10 @@ const ContactPage = () => {
             </h3>
           </div>
           <div className="form-container">
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+
               <div className="input-row">
                 <input type="text" name="FNAME" placeholder="First Name*" required />
                 <input type="text" name="LNAME" placeholder="Last Name" />
@@ -48,10 +57,10 @@ const ContactPage = () => {
                 <input type="tel" name="PHONE" placeholder="Phone" />
               </div>
               <textarea name="MMERGE5" placeholder="How can I help you?" className="message-box" />
-              <button onClick={thankYou} className="button1" type="submit">
+              <button className="button1" type="submit">
                 Submit
               </button>
-              {message}
+              {message && <p className="error-message">{message}</p>}
             </form>
           </div>
           <ul className="social-buttons">
