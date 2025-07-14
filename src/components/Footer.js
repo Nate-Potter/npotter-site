@@ -33,11 +33,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="link">
-                  Portfolio
-                </Link>
-              </li>
-              <li>
                 <Link to="/contact" className="link">
                   Contact
                 </Link>
@@ -45,11 +40,6 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="link">
                   About
-                </Link>
-              </li>
-              <li>
-                <Link to="/app" className="link">
-                  App
                 </Link>
               </li>
             </ul>

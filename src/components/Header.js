@@ -42,11 +42,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className="link" onClick={toggleMobileMenu}>
-                Portfolio
-              </Link>
-            </li>
-            <li>
               <Link to="/contact" className="link" onClick={toggleMobileMenu}>
                 Contact
               </Link>
@@ -79,11 +74,6 @@ const Header = () => {
             <li>
               <Link to="/services" className="link">
                 Services
-              </Link>
-            </li>
-            <li>
-              <Link to="/portfolio" className="link">
-                Portfolio
               </Link>
             </li>
             <li>
