@@ -56,7 +56,7 @@ const ContactPage = () => {
                 <input type="email" name="EMAIL" placeholder="Email*" required />
                 <input type="tel" name="PHONE" placeholder="Phone" />
               </div>
-              <textarea name="MMERGE5" placeholder="How can I help you?" className="message-box" />
+              <textarea name="MESSAGE" placeholder="How can I help you?" className="message-box" />
               <button className="button1" type="submit">
                 Submit
               </button>

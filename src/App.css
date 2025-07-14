@@ -847,7 +847,6 @@ ul {
 }
 
 .contact-form input, textarea{
-  background: transparent;
   background-color: rgba(0, 0, 0, .1);
   border: none;
   border-bottom: 1px solid rgb(0, 97, 153);
@@ -859,6 +858,10 @@ ul {
   font-family: "BrandinkLight";
   color: rgba( 255, 255, 255, .6);
   width: 50%;
+}
+.contact-form input:valid,
+.contact-form textarea:valid {
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .input-row{
