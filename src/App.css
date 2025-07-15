@@ -706,6 +706,7 @@ ul {
   .home-info h2 {
     line-height: 1.25;
     margin-bottom: 50px;
+    text-align: center;
   }
   .home-info.right{
     width: 100%;
