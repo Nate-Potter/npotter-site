@@ -80,11 +80,9 @@ const HomePage = () => {
           <div className="home-info">
             <h2>Meet the Developer</h2>
             <p>
-              I'm Nathan Potter — a freelance web developer with a background in craftsmanship and
-              client-first service. Before code, I spent 8 years building custom surfboards — so I
-              understand how to blend precision with creativity. Now I bring that same mindset to
-              the web, helping small businesses and creatives launch beautiful, functional sites
-              that grow with them.
+              I'm Nathan Potter — a freelance web developer focused on clean design, responsive
+              builds, and client-first service. I specialize in React-based websites tailored to
+              your brand and audience.
             </p>
           </div>
         </div>
@@ -93,8 +91,8 @@ const HomePage = () => {
         <div className="home-info">
           <h2>Ready to Launch Your Site?</h2>
           <p>
-            Let’s build something great together. Reach out for a free consultation or to learn more
-            about how I can help your project.
+            Whether you're starting from scratch or ready for a redesign, I’d love to hear about
+            your project.
           </p>
           <Link to="/contact" className="button1">
             Get in Touch

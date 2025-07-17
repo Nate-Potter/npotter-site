@@ -13,9 +13,9 @@ const AboutPage = () => {
               approach to every project.
             </p>
             <p>
-              Before transitioning to web development, I spent 8 years crafting custom surfboards at
-              a high-end shop, learning the value of precision and tailoring work to each client’s
-              needs.
+              I transitioned to web development after years of crafting custom surfboards at a
+              high-end shop, where I developed a deep appreciation for precision and client-focused
+              design.
             </p>
             <p>
               I also worked in the restaurant industry, gaining strong communication and
