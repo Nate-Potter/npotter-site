@@ -54,6 +54,9 @@ const HomePage = () => {
               <li>🔍 SEO-Friendly Code & Structure</li>
               <li>🤝 One-on-One Client Collaboration</li>
             </ul>
+            <Link to="/services" className="button1">
+              Services
+            </Link>
           </div>
         </div>
       </div>
@@ -84,6 +87,9 @@ const HomePage = () => {
               builds, and client-first service. I specialize in React-based websites tailored to
               your brand and audience.
             </p>
+            <Link to="/about" className="button1">
+              About
+            </Link>
           </div>
         </div>
       </div>
