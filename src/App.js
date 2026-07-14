@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import ThankYouPage from "./pages/ThankYouPage";
 import SearchPage from "./pages/SearchPage";
-import HabitAppPage from "./pages/HabitAppPage";
+import StockDashApp from "./pages/StockDashApp";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -25,7 +25,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/thank-you" element={<ThankYouPage />} />
             <Route path="/search" element={<SearchPage />} />
-            <Route path="/app" element={<HabitAppPage />} />
+            <Route path="/app" element={<StockDashApp />} />
           </Routes>
           <Footer />
         </div>

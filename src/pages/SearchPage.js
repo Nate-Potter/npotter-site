@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import social from "../data/socialMedia";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
-import CopyEmail from "../utils/CopyEmail";
 
 const SearchPage = () => {
   const [message, setMessage] = useState("");
@@ -67,8 +66,13 @@ const SearchPage = () => {
               </a>
             </li>
             <li>
-              <a onClick={CopyEmail} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-regular fa-envelope" className="social-icons envelope" />
+              <a href={social.youtube} target="_blank" rel="noopener noreferrer">
+                <Icon icon="fa-brands fa-youtube" className="social-icons youtube" />
+              </a>
+            </li>
+            <li>
+              <a href={social.amazon} target="_blank" rel="noopener noreferrer">
+                <Icon icon="fa-brands fa-amazon" className="social-icons amazon" />
               </a>
             </li>
           </ul>

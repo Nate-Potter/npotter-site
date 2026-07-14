@@ -31,10 +31,10 @@ const HomePage = () => {
         <div className="home-info right">
           <h2>Custom Websites Built for You</h2>
           <p>
-            Your business is unique — your website should be too. I build fast, responsive, and
-            accessible React-based websites that showcase what makes you special. Whether you need a
-            simple landing page or a full portfolio site, I’ll craft a solution that fits your
-            brand, goals, and audience.
+            No two businesses are the same, so I don't believe in one-size-fits-all websites. I
+            build custom React websites that are fast, responsive, and designed to match your brand.
+            Whether you're starting from scratch or updating an existing site, I'll create something
+            that works for you and your audience.
           </p>
         </div>
       </div>
@@ -64,14 +64,14 @@ const HomePage = () => {
         <div className="home-info left">
           <h2>My Approach</h2>
           <p>
-            A great website shouldn’t just look good — it should *do* good work. That means fast
-            load times, smooth interactions, and thoughtful design that guides your users where they
-            need to go.
+            A website should do more than just look good. It should load quickly, work smoothly on
+            any device, and make it easy for visitors to find what they're looking for.
           </p>
           <p>
-            I prioritize clean code, mobile-first responsiveness, and accessibility to make sure
-            your site performs well for everyone. Every project starts with clear communication and
-            a shared goal: helping your audience connect with your brand.
+            I build websites with clean code, responsive layouts, and accessibility in mind so they
+            work well for everyone. From the first conversation to the finished site, my goal is to
+            create something that represents your business and gives your visitors a great
+            experience.
           </p>
         </div>
         <div className="row-image right">
@@ -83,9 +83,9 @@ const HomePage = () => {
           <div className="home-info">
             <h2>Meet the Developer</h2>
             <p>
-              I'm Nathan Potter — a freelance web developer focused on clean design, responsive
-              builds, and client-first service. I specialize in React-based websites tailored to
-              your brand and audience.
+              I'm Nathan Potter, a freelance web developer who builds clean, responsive websites
+              with a focus on your business and your customers. I specialize in custom React
+              websites designed to fit your brand and goals.
             </p>
             <Link to="/about" className="button1">
               About

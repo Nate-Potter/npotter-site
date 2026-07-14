@@ -9,7 +9,7 @@ const AboutPage = () => {
           <h1>About Me</h1>
           <div className="about-main">
             <p>
-              I’m Nathan Potter — a freelance web developer who brings a hands-on, detail-oriented
+              I’m Nathan Potter,a freelance web developer who brings a hands-on, detail-oriented
               approach to every project.
             </p>
             <p>
